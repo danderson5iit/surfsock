@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HeatWave Surf Socks</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .hero-bg {
+      background-image: url('your-hero-image.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
+</head>
+<body class="bg-slate-900 text-white">
+
+  <!-- Hero Section -->
+  <section class="hero-bg h-screen flex flex-col justify-center items-center text-center px-6 bg-gradient-to-b from-slate-900/60 to-slate-900">
+    <h1 class="text-5xl md:text-6xl font-bold text-white drop-shadow-lg">HeatWave Surf Socks</h1>
+    <p class="mt-4 text-xl text-blue-100 max-w-2xl">
+      Electrically heated surf gear built for cold-water adventures. Stay warm. Stay out longer.
+    </p>
+    <button class="mt-8 bg-orange-500 hover:bg-orange-600 text-white font-semibold px-8 py-3 rounded-full shadow-lg transition">
+      Preorder Now
+    </button>
+  </section>
+
+  <!-- Products Section -->
+  <section class="py-20 bg-slate-800">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-12 text-blue-100">Our Products</h2>
+      <div class="grid md:grid-cols-3 gap-10 px-6">
+
+        <!-- Product 1 -->
+        <div class="bg-slate-700 rounded-2xl p-6 shadow-lg hover:scale-105 transition">
+          <img src="surf-socks.jpg" alt="Heated Surf Socks" class="rounded-xl mb-4 w-full h-56 object-cover">
+          <h3 class="text-2xl font-semibold mb-2 text-white">Heated Surf Socks</h3>
+          <p class="text-blue-200">Waterproof warmth that keeps your feet alive in icy surf sessions.</p>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="bg-slate-700 rounded-2xl p-6 shadow-lg hover:scale-105 transition">
+          <img src="gloves.jpg" alt="Heated Gloves" class="rounded-xl mb-4 w-full h-56 object-cover">
+          <h3 class="text-2xl font-semibold mb-2 text-white">Heated Gloves</h3>
+          <p class="text-blue-200">Flexible and durable warmth that never quits mid-session.</p>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="bg-slate-700 rounded-2xl p-6 shadow-lg hover:scale-105 transition">
+          <img src="base-layer.jpg" alt="Heated Base Layer" class="rounded-xl mb-4 w-full h-56 object-cover">
+          <h3 class="text-2xl font-semibold mb-2 text-white">Heated Base Layer</h3>
+          <p class="text-blue-200">Lightweight underlayer for extra heat where it matters most.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="py-20 bg-slate-900 text-center px-6">
+    <div class="max-w-3xl mx-auto">
+      <h2 class="text-4xl font-bold mb-6 text-blue-100">About HeatWave</h2>
+      <p class="text-blue-200 text-lg leading-relaxed">
+        Born from the chill of dawn patrols and the love of the ocean, HeatWave Surf Socks delivers the next generation of cold-water performance gear.
+        Our mission: to empower surfers and ocean athletes to push limits in any temperature — through smart, sustainable warmth.
+      </p>
+      <img src="cold-surf.jpg" alt="Cold water surfing" class="rounded-2xl mt-10 shadow-xl mx-auto">
+    </div>
+  </section>
+
+  <!-- Signup / CTA Section -->
+  <section class="py-20 bg-gradient-to-r from-blue-800 to-slate-800 text-center px-6">
+    <h2 class="text-4xl font-bold mb-6 text-white">Stay in the Loop</h2>
+    <p class="text-blue-100 mb-8">Be first to know about preorders, drops, and surf-tested innovations.</p>
+    <form class="max-w-md mx-auto flex flex-col sm:flex-row gap-4 justify-center">
+      <input type="email" placeholder="Enter your email" class="flex-1 px-4 py-3 rounded-full text-slate-900 focus:outline-none">
+      <button class="bg-orange-500 hover:bg-orange-600 text-white font-semibold px-6 py-3 rounded-full transition">
+        Notify Me
+      </button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-10 bg-slate-950 text-center text-blue-200">
+    <p class="mb-2 font-semibold text-white">HeatWave Surf Socks © 2025</p>
+    <div class="flex justify-center gap-6 text-blue-400">
+      <a href="#">Instagram</a>
+      <a href="#">YouTube</a>
+      <a href="#">Contact</a>
+    </div>
+  </footer>
+
+</body>
+</html>
